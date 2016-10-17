@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fag_calc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/btnSeven"
+        android:layout_below="@id/display"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/btnFour"
+        android:layout_below="@id/btnSeven"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/btnOne"
+        android:layout_below="@id/btnFour"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:id="@+id/btnC"
+        android:layout_below="@id/btnOne" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/btnEight"
+        android:layout_below="@id/display"
+        android:layout_toRightOf="@id/btnSeven" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="5"
+    android:id="@+id/btnFive"
+    android:layout_below="@id/btnEight"
+    android:layout_toRightOf= "@id/btnFour" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/btnTwo"
+        android:layout_below="@id/btnFive"
+        android:layout_toRightOf= "@id/btnOne" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/btnZero"
+        android:layout_below="@id/btnTwo"
+        android:layout_toRightOf= "@id/btnOne" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9"
+    android:id="@+id/btnNine"
+    android:layout_below="@id/display"
+    android:layout_toRightOf= "@id/btnEight" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/btnSix"
+        android:layout_below="@id/btnNine"
+        android:layout_toRightOf= "@id/btnFive" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="3"
+    android:id="@+id/btnThree"
+    android:layout_below="@id/btnSix"
+    android:layout_toRightOf= "@id/btnTwo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="."
+        android:id="@+id/btnPoint"
+        android:layout_below="@id/btnThree"
+        android:layout_toRightOf= "@id/btnZero" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btnPlus"
+        android:layout_below="@id/display"
+        android:layout_toRightOf= "@id/btnNine" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btnMinus"
+        android:layout_below="@id/btnPlus"
+        android:layout_toRightOf= "@id/btnSix" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/btnDegree"
+        android:layout_below="@id/btnMinus"
+        android:layout_toRightOf= "@id/btnThree" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/btnMulti"
+        android:layout_below="@id/btnDegree"
+        android:layout_toRightOf= "@id/btnPoint" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/btnRez"
+        android:layout_below="@id/btnZero"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
